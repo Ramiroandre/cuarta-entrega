@@ -1,0 +1,50 @@
+.btn-outline-success:hover {
+  background: #709ad8;
+  border-color: blue;
+}
+
+.btn-outline-success {
+  border-color: #709ad8;
+  color: #709ad8;
+}
+
+main .cuerpoLaptop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  text-align: center;
+  justify-items: center;
+}
+
+main .cuerpoLaptop .laptop {
+  margin-top: 100px;
+}
+
+footer {
+  height: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#80b1e9), to(#337fe4));
+  background-image: linear-gradient(#80b1e9, #337fe4);
+  color: white;
+}
+
+main section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+main a {
+  border-radius: 20px;
+  margin: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
