@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+main{
+    div{
+        img{
+            border-radius: 10px;
+            transition: all 300ms;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+main{
+    div{
+        img:hover{
+            transform: scale(1.3);
+        }
+    }
+}
+
+
